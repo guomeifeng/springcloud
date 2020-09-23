@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/deerSpringboot/src/main/java/cn/enjoy/DeerTomcat.java" />
+      <file url="file://$PROJECT_DIR$/deerSpringboot/src/main/java/cn/enjoy/servlet/IndexServlet.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microcloud-consumer" />
+        <module name="microcloud-security" />
+        <module name="microcloud-config" />
+        <module name="springcloud-api" />
+        <module name="microcloud-eureka3" />
+        <module name="microcloud-eureka2" />
+        <module name="MessageProcessor" />
+        <module name="springcloud-provider-product2" />
+        <module name="springcloud-provider-product3" />
+        <module name="microcloud-eureka" />
+        <module name="springcloud-provider-product" />
+        <module name="DatabaseProcessor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="deerSpringboot" target="1.5" />
+      <module name="microcloud-eureka3" target="1.5" />
+      <module name="springbootdeer" target="1.5" />
+      <module name="springbootmikos" target="1.5" />
+      <module name="springcloud-security" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springbootvip:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="springbootvip-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springbootvip:war exploded" />
+    </root>
+  </artifact>
+</component>
